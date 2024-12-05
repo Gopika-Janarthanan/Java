@@ -1,21 +1,34 @@
-/* Project Description
-Create a student management system that uses arrays and regular expressions to manage student records. The system should allow the user to add, view, and search for student records.
+/* 
+Description
+Create a simple command-line calculator that takes two numbers as inputs and performs arithmetic operations on them. The calculator should support the following operations:
+
+Addition (+)
+
+Subtraction (-)
+
+Multiplication (*)
+
+Division (/)
+
+Modulo (%)
+
+Exponentiation (^)
+
+The calculator should also handle any type casting and display the result as accurately as possible.
 
 Instructions:
 
 Create a Java project in Eclipse or any IDE of your choice.
 
-Create a class called "Student" that has the following properties: name, ID, email, and GPA.
+Create a class called "Calculator" that has a main method.
 
-Create an array of Student objects to store the student records.
+Within the main method, prompt the user to enter two numbers and the operation they want to perform.
 
-Create a method called "addStudent" that takes the name, ID, email, and GPA as parameters and adds a new Student object to the array.
+Use the appropriate Java operators and data types to perform the arithmetic operation.
 
-Create a method called "viewStudents" that displays all the student records in the array.
+Display the result to the user.
 
-Create a method called "searchStudents" searches for a student with a given name.
-
-Use regular expressions to validate the email address format when adding a new student record. */
+ */
 
 package Course;
 
