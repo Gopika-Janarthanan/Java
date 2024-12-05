@@ -81,7 +81,7 @@ public class StudentManagementSystem {
     }
 
     private void searchStudent() {
-        System.out.print("Enter a regular expression to search for: ");
+        System.out.print("Enter keywords to search : ");
         String regex = input.nextLine();
 
         System.out.println("Search results:");
