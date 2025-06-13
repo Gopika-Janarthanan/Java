@@ -1,5 +1,30 @@
 import java.util.*;
 
+class User {
+    String username, password;
+    List<String> searchHistory = new ArrayList<>();
+    User(String username, String password) {
+        this.username = username;
+        this.password = password;
+    }
+}
+
+class Product {
+    int id;
+    String name;
+    double price;
+    String gender; // "Men", "Women", "Unisex"
+    Product(int id, String name, double price, String gender) {
+        this.id = id;
+        this.name = name;
+        this.price = price;
+        this.gender = gender;
+    }
+}
+
+
+
+
 public class JGKart {
     static Scanner sc = new Scanner(System.in);
     static List<User> users = new ArrayList<>();
@@ -230,26 +255,3 @@ public class JGKart {
         }
     }
 }
-class User {
-    String username, password;
-    List<String> searchHistory = new ArrayList<>();
-    User(String username, String password) {
-        this.username = username;
-        this.password = password;
-    }
-}
-
-class Product {
-    int id;
-    String name;
-    double price;
-    String gender; // "Men", "Women", "Unisex"
-    Product(int id, String name, double price, String gender) {
-        this.id = id;
-        this.name = name;
-        this.price = price;
-        this.gender = gender;
-    }
-}
-
-
